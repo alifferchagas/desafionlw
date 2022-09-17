@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+
+<body>
+ <form action="">
+  <datalist id="emailslist">
+   <option>aliffer@rocketseat.com.br</option>
+  </datalist>
+  <input type="email" placeholder="Email" required minlength="8" maxlength="80"
+   size="30" pattern=".+@rocketseat\.com\.br" title="Só aceita email rocketseat.com.br" list="emailslist">
+  <!-- 
+   readonly (Apenas leitura)
+  dsabled (Desabilitado)
+  multiple (Vários emails separados por vírgula)
+  value="alifferchaguinha06@gmail.com" (Já fica setado o valor)
+  -->
+  <button type="submit">Enviar</button>
+ </form>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Checkbox</title>
+</head>
+<body>
+<div>
+ <label for="subscribe">Receber notificações</label>
+ <input type="checkbox" name="subscribe" id="subscribe">
+</div>
+<br>
+ <fieldset>
+  <legend>Interesses</legend>
+  <div>
+   <label for="music">Musica</label>
+  <input type="checkbox" name="interest" id="music">
+  </div> 
+  <div>
+   <label for="video">Video</label>
+  <input type="checkbox" name="interest" id="video">
+  </div>
+ </fieldset>
+ <!--
+  Para multiplos valores o back-end receberia as informações do tipo name = id, id
+ Exemplo: interest = music, video -->
+</body>
+</html>

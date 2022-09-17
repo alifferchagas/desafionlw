@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Url</title>
+</head>
+<body>
+ <datalist id="urlsdata">
+<option>http://meusite.com.br</option>
+<option>https://meusite.com.br</option>
+
+ </datalist>
+ <form action="">
+  <input type="url"
+  placeholder="http://example.com.br"
+  required
+  minlength="8"
+  maxlength="255"
+  pattern=".*\.com\.br.*"
+  title="Somente domínios .com.br serão aceitos"
+  list="urlsdata"
+  >
+  <button type="submit">Enviar</button>
+ </form>
+</body>
+</html>

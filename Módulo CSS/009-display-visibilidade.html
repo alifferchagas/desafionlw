@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Display e visibilidade</title>
+ <style>
+  p {
+   color: red
+  }
+
+  span {
+   display: block;
+  }
+
+  p.exp-1 {
+   display: block;
+  }
+
+  p.exp-2 {
+   display: inline;
+  }
+
+  p.exp-3 {
+   display: inline-block;
+  }
+
+  .aparecer:hover p.exp-4 {
+   display: block;
+  }
+
+  p.exp-4 {
+   display: none;
+  }
+ </style>
+</head>
+
+<body>
+ <span>
+  <a href="https://www.w3schools.com/cssref/pr_class_display.asp">Link para as propriedades de display</a>
+ </span>
+ <p class="exp-1">Texto</p>
+ <div>
+  Texto 2 abc
+  <p class="exp-2">Texto</p>
+
+ </div>
+ <div>
+  Texto 3 abc
+  <p class="exp-3">Texto</p>
+  Texto 3 abc
+ </div>
+ <div class="aparecer">
+  Aparecer!
+  <p class="exp-4">Texto 4</p>
+ </div>
+
+</body>
+
+</html>
